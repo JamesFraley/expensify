@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import IndecisionApp from './components/IndecisionApp';
+import AppRouter from './routers/AppRouter';
 
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
-//import './styles/styles.css';
+
 
 let app=document.getElementById('app');
-ReactDOM.render(<p>This is my boilerplate</p>, app);
+ReactDOM.render(<AppRouter/>, app);
