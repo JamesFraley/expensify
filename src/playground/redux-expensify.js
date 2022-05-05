@@ -162,7 +162,7 @@ const expenseFour  = store.dispatch(addExpense({description: 'pot',    amount: 1
 store.dispatch(setTextFilter('coffee'));
 store.dispatch(setTextFilter(''));
 store.dispatch(sortByAmount());  // sortBy=amount
-      store.dispatch(sortByDate());    // sortBy=date
+store.dispatch(sortByDate());    // sortBy=date
 // store.dispatch(sortByAmount());  // sortBy=amount
 // console.log("--------------------------------------------");
 //store.dispatch(setStartDate(0));  // startDate=125
